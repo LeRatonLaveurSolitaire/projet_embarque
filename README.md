@@ -1,4 +1,4 @@
-# projet embarqué : Horizon artificiel
+# Projet embarqué : Horizon artificiel
 
 ## Introduction
 
@@ -47,6 +47,7 @@ LVGL est une biblioteque très lourde qui occupe beaucoup de place en mémoire. 
 
 Ce tutoriel est fait le 19/04/2023, il ne sera possiblement plus valide dans le futur.
 Actuellement, LVGL utilise la librairie contenue dans HAL_DRIVER qui est identique à STM32F7xx_HAL_Driver utiliser par FreeRTOS.
+Dans tous les cas, reportez vous à la documentation officiel : https://docs.lvgl.io/master/index.html
 
 ## Configuration de FreeRTOS & des periphériques
 
