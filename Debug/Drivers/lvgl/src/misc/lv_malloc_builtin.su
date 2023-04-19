@@ -1,0 +1,10 @@
+../Drivers/lvgl/src/misc/lv_malloc_builtin.c:74:6:lv_mem_init_builtin	16	static
+../Drivers/lvgl/src/misc/lv_malloc_builtin.c:99:6:lv_mem_deinit_builtin	8	static
+../Drivers/lvgl/src/misc/lv_malloc_builtin.c:106:23:lv_mem_builtin_add_pool	24	static
+../Drivers/lvgl/src/misc/lv_malloc_builtin.c:121:6:lv_mem_builtin_remove_pool	24	static
+../Drivers/lvgl/src/misc/lv_malloc_builtin.c:135:6:lv_mem_monitor_builtin	24	static
+../Drivers/lvgl/src/misc/lv_malloc_builtin.c:160:8:lv_malloc_builtin	16	static
+../Drivers/lvgl/src/misc/lv_malloc_builtin.c:167:8:lv_realloc_builtin	16	static
+../Drivers/lvgl/src/misc/lv_malloc_builtin.c:172:6:lv_free_builtin	24	static
+../Drivers/lvgl/src/misc/lv_malloc_builtin.c:182:10:lv_mem_test_builtin	16	static
+../Drivers/lvgl/src/misc/lv_malloc_builtin.c:205:13:lv_mem_walker	32	static

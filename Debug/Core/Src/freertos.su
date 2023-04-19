@@ -1,0 +1,9 @@
+../Core/Src/freertos.c:87:6:vApplicationGetIdleTaskMemory	24	static
+../Core/Src/freertos.c:101:6:MX_FREERTOS_Init	248	static
+../Core/Src/freertos.c:178:6:StartDefaultTask	16	static
+../Core/Src/freertos.c:196:6:accelerometre_I2C	16	static
+../Core/Src/freertos.c:214:6:NEMA_UART	16	static
+../Core/Src/freertos.c:232:6:reset_speed	16	static
+../Core/Src/freertos.c:250:6:reset_orientation	16	static
+../Core/Src/freertos.c:268:6:LVGLTimer	16	static
+../Core/Src/freertos.c:287:6:LVGLTick	16	static

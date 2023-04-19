@@ -1,0 +1,10 @@
+../Drivers/lvgl/tests/src/lv_test_malloc.c:11:6:lv_test_malloc_init	4	static
+../Drivers/lvgl/tests/src/lv_test_malloc.c:18:6:lv_test_malloc_set_cb	16	static
+../Drivers/lvgl/tests/src/lv_test_malloc.c:23:8:lv_test_malloc_normal	16	static
+../Drivers/lvgl/tests/src/lv_test_malloc.c:32:8:lv_test_realloc_normal	16	static
+../Drivers/lvgl/tests/src/lv_test_malloc.c:41:8:lv_test_malloc	16	static
+../Drivers/lvgl/tests/src/lv_test_malloc.c:47:6:lv_test_realloc_set_cb	16	static
+../Drivers/lvgl/tests/src/lv_test_malloc.c:52:8:lv_test_realloc	16	static
+../Drivers/lvgl/tests/src/lv_test_malloc.c:58:6:lv_test_free_set_cb	16	static
+../Drivers/lvgl/tests/src/lv_test_malloc.c:63:6:lv_test_free_normal	16	static
+../Drivers/lvgl/tests/src/lv_test_malloc.c:72:6:lv_test_free	16	static
