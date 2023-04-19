@@ -1,5 +1,0 @@
-../Drivers/lvgl/src/draw/../misc/lv_mem.h:82:20:lv_memzero	16	static
-../Drivers/lvgl/src/draw/lv_img_cache_builtin.c:68:6:_lv_img_cache_builtin_init	24	static
-../Drivers/lvgl/src/draw/lv_img_cache_builtin.c:94:32:_lv_img_cache_open_builtin	40	static
-../Drivers/lvgl/src/draw/lv_img_cache_builtin.c:182:13:lv_img_cache_set_size_builtin	16	static
-../Drivers/lvgl/src/draw/lv_img_cache_builtin.c:213:13:lv_img_cache_invalidate_src_builtin	16	static

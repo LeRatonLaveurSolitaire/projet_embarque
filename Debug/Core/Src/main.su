@@ -1,4 +1,12 @@
-../Core/Src/main.c:88:5:main	16	static
-../Core/Src/main.c:181:6:SystemClock_Config	88	static
-../Core/Src/main.c:240:6:my_flush_cb	24	static
-../Core/Src/main.c:255:6:Error_Handler	4	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm7.h:2229:22:SCB_EnableICache	4	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm7.h:2281:22:SCB_EnableDCache	24	static,ignoring_inline_asm
+c:\users\thoma\stm32cubeide\workspace_1.10.1\primary flight display\drivers\lvgl\src\misc\lv_color.h:588:26:lv_color_make	16	static
+c:\users\thoma\stm32cubeide\workspace_1.10.1\primary flight display\drivers\lvgl\src\misc\lv_color.h:593:26:lv_color_hex	24	static
+c:\users\thoma\stm32cubeide\workspace_1.10.1\primary flight display\drivers\lvgl\src\misc\lv_color.h:627:26:lv_color_hex3	16	static
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary Flight Display/Drivers/lvgl/src/core/lv_disp.h:182:26:lv_scr_act	8	static
+../Core/Src/main.c:164:5:main	32	static
+../Core/Src/main.c:394:6:SystemClock_Config	88	static
+../Core/Src/main.c:448:8:sensor_I2C_read	24	static
+../Core/Src/main.c:455:8:sensor_I2C_write	24	static
+../Core/Src/main.c:461:6:bno055_init2	32	static
+../Core/Src/main.c:537:6:Error_Handler	4	static,ignoring_inline_asm

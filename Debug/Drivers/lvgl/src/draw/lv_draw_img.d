@@ -4,7 +4,7 @@ Drivers/lvgl/src/draw/lv_draw_img.o: \
  ../Drivers/lvgl/src/draw/lv_img_decoder.h \
  ../Drivers/lvgl/src/draw/../lv_conf_internal.h \
  ../Drivers/lvgl/src/draw/../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/draw/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/draw/lv_img_buf.h \
  ../Drivers/lvgl/src/draw/../misc/lv_color.h \
  ../Drivers/lvgl/src/draw/../misc/../lv_conf_internal.h \
@@ -96,7 +96,7 @@ Drivers/lvgl/src/draw/lv_draw_img.o: \
 ../Drivers/lvgl/src/draw/lv_img_decoder.h:
 ../Drivers/lvgl/src/draw/../lv_conf_internal.h:
 ../Drivers/lvgl/src/draw/../lv_conf_kconfig.h:
-../Drivers/lvgl/src/draw/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/draw/lv_img_buf.h:
 ../Drivers/lvgl/src/draw/../misc/lv_color.h:
 ../Drivers/lvgl/src/draw/../misc/../lv_conf_internal.h:

@@ -24,8 +24,25 @@ C_DEPS :=
 SUBDIRS := \
 Core/Src \
 Core/Startup \
-Drivers/STM32F7xx_HAL_Driver/Src \
-Drivers \
+Drivers/BNO055_driver-master \
+Drivers/HAL_Driver/Src/Legacy \
+Drivers/HAL_Driver/Src \
+Drivers/Utilities/Components/adv7533 \
+Drivers/Utilities/Components/exc7200 \
+Drivers/Utilities/Components/ft5336 \
+Drivers/Utilities/Components/ft6x06 \
+Drivers/Utilities/Components/mfxstm32l152 \
+Drivers/Utilities/Components/otm8009a \
+Drivers/Utilities/Components/ov9655 \
+Drivers/Utilities/Components/s5k5cag \
+Drivers/Utilities/Components/st7735 \
+Drivers/Utilities/Components/st7789h2 \
+Drivers/Utilities/Components/stmpe811 \
+Drivers/Utilities/Components/ts3510 \
+Drivers/Utilities/Components/wm8994 \
+Drivers/Utilities/STM32746G-Discovery \
+Drivers/hal_stm_lvgl/tft \
+Drivers/hal_stm_lvgl/touchpad \
 Drivers/lvgl/demos/benchmark/assets \
 Drivers/lvgl/demos/benchmark \
 Drivers/lvgl/demos/keypad_encoder \

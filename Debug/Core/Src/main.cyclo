@@ -1,4 +1,12 @@
-main.c:88:5:main	1
-main.c:181:6:SystemClock_Config	4
-main.c:240:6:my_flush_cb	1
-main.c:255:6:Error_Handler	1
+core_cm7.h:2229:22:SCB_EnableICache	1
+core_cm7.h:2281:22:SCB_EnableDCache	3
+lv_color.h:588:26:lv_color_make	1
+lv_color.h:593:26:lv_color_hex	1
+lv_color.h:627:26:lv_color_hex3	1
+lv_disp.h:182:26:lv_scr_act	1
+main.c:164:5:main	1
+main.c:394:6:SystemClock_Config	4
+main.c:448:8:sensor_I2C_read	3
+main.c:455:8:sensor_I2C_write	2
+main.c:461:6:bno055_init2	14
+main.c:537:6:Error_Handler	1

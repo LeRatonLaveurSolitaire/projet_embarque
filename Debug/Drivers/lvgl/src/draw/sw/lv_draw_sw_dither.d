@@ -5,7 +5,7 @@ Drivers/lvgl/src/draw/sw/lv_draw_sw_dither.o: \
  ../Drivers/lvgl/src/draw/sw/../../core/../misc/lv_area.h \
  ../Drivers/lvgl/src/draw/sw/../../core/../misc/../lv_conf_internal.h \
  ../Drivers/lvgl/src/draw/sw/../../core/../misc/../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/draw/sw/../../core/../misc/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/draw/sw/lv_draw_sw_gradient.h \
  ../Drivers/lvgl/src/draw/sw/../../misc/lv_color.h \
  ../Drivers/lvgl/src/draw/sw/../../misc/../lv_conf_internal.h \
@@ -31,7 +31,7 @@ Drivers/lvgl/src/draw/sw/lv_draw_sw_dither.o: \
 ../Drivers/lvgl/src/draw/sw/../../core/../misc/lv_area.h:
 ../Drivers/lvgl/src/draw/sw/../../core/../misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/draw/sw/../../core/../misc/../lv_conf_kconfig.h:
-../Drivers/lvgl/src/draw/sw/../../core/../misc/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/draw/sw/lv_draw_sw_gradient.h:
 ../Drivers/lvgl/src/draw/sw/../../misc/lv_color.h:
 ../Drivers/lvgl/src/draw/sw/../../misc/../lv_conf_internal.h:

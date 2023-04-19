@@ -1,9 +1,11 @@
-../Core/Src/freertos.c:87:6:vApplicationGetIdleTaskMemory	24	static
-../Core/Src/freertos.c:101:6:MX_FREERTOS_Init	248	static
-../Core/Src/freertos.c:178:6:StartDefaultTask	16	static
-../Core/Src/freertos.c:196:6:accelerometre_I2C	16	static
-../Core/Src/freertos.c:214:6:NEMA_UART	16	static
-../Core/Src/freertos.c:232:6:reset_speed	16	static
-../Core/Src/freertos.c:250:6:reset_orientation	16	static
-../Core/Src/freertos.c:268:6:LVGLTimer	16	static
-../Core/Src/freertos.c:287:6:LVGLTick	16	static
+c:\users\thoma\stm32cubeide\workspace_1.10.1\primary flight display\drivers\lvgl\src\misc\lv_color.h:593:26:lv_color_hex	24	static
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary Flight Display/Drivers/lvgl/src/lv_api_map.h:35:51:lv_task_handler	8	static
+../Core/Src/freertos.c:91:6:vApplicationGetIdleTaskMemory	24	static
+../Core/Src/freertos.c:105:6:MX_FREERTOS_Init	248	static
+../Core/Src/freertos.c:182:6:StartDefaultTask	16	static
+../Core/Src/freertos.c:200:6:accelerometre_I2C	56	static
+../Core/Src/freertos.c:388:6:NEMA_UART	16	static
+../Core/Src/freertos.c:410:6:reset_speed	16	static
+../Core/Src/freertos.c:428:6:reset_orientation	16	static
+../Core/Src/freertos.c:446:6:LVGLTimer	16	static
+../Core/Src/freertos.c:467:6:LVGLTick	16	static

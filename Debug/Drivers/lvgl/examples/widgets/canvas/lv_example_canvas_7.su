@@ -1,5 +1,0 @@
-../Drivers/lvgl/examples/widgets/canvas/../../../src/core/../misc/lv_color.h:715:26:lv_color_make	16	static
-../Drivers/lvgl/examples/widgets/canvas/../../../src/core/../misc/lv_color.h:753:26:lv_color_hex3	16	static
-../Drivers/lvgl/examples/widgets/canvas/../../../src/core/../core/lv_disp.h:388:34:lv_scr_act	8	static
-../Drivers/lvgl/examples/widgets/canvas/../../../src/core/lv_obj_pos.h:199:20:lv_obj_center	16	static
-../Drivers/lvgl/examples/widgets/canvas/lv_example_canvas_7.c:10:6:lv_example_canvas_7	48	static

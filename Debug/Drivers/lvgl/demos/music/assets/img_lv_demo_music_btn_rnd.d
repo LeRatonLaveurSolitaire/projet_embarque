@@ -6,7 +6,7 @@ Drivers/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.o: \
  ../Drivers/lvgl/demos/music/assets/../../../src/misc/lv_log.h \
  ../Drivers/lvgl/demos/music/assets/../../../src/misc/../lv_conf_internal.h \
  ../Drivers/lvgl/demos/music/assets/../../../src/misc/../lv_conf_kconfig.h \
- ../Drivers/lvgl/demos/music/assets/../../../src/misc/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/demos/music/assets/../../../src/misc/lv_types.h \
  ../Drivers/lvgl/demos/music/assets/../../../src/misc/lv_timer.h \
  ../Drivers/lvgl/demos/music/assets/../../../src/misc/../hal/lv_hal_tick.h \
@@ -129,7 +129,6 @@ Drivers/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.o: \
  ../Drivers/lvgl/demos/music/assets/../../../src/widgets/lv_bar.h \
  ../Drivers/lvgl/demos/music/assets/../../../src/widgets/lv_btnmatrix.h \
  ../Drivers/lvgl/demos/music/assets/../../../src/widgets/lv_dropdown.h \
- ../Drivers/lvgl/demos/music/assets/../../../src/widgets/../widgets/lv_label.h \
  ../Drivers/lvgl/demos/music/assets/../../../src/widgets/lv_roller.h \
  ../Drivers/lvgl/demos/music/assets/../../../src/widgets/lv_textarea.h \
  ../Drivers/lvgl/demos/music/assets/../../../src/widgets/lv_canvas.h \
@@ -232,7 +231,7 @@ Drivers/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.o: \
 ../Drivers/lvgl/demos/music/assets/../../../src/misc/lv_log.h:
 ../Drivers/lvgl/demos/music/assets/../../../src/misc/../lv_conf_internal.h:
 ../Drivers/lvgl/demos/music/assets/../../../src/misc/../lv_conf_kconfig.h:
-../Drivers/lvgl/demos/music/assets/../../../src/misc/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/demos/music/assets/../../../src/misc/lv_types.h:
 ../Drivers/lvgl/demos/music/assets/../../../src/misc/lv_timer.h:
 ../Drivers/lvgl/demos/music/assets/../../../src/misc/../hal/lv_hal_tick.h:
@@ -355,7 +354,6 @@ c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lv
 ../Drivers/lvgl/demos/music/assets/../../../src/widgets/lv_bar.h:
 ../Drivers/lvgl/demos/music/assets/../../../src/widgets/lv_btnmatrix.h:
 ../Drivers/lvgl/demos/music/assets/../../../src/widgets/lv_dropdown.h:
-../Drivers/lvgl/demos/music/assets/../../../src/widgets/../widgets/lv_label.h:
 ../Drivers/lvgl/demos/music/assets/../../../src/widgets/lv_roller.h:
 ../Drivers/lvgl/demos/music/assets/../../../src/widgets/lv_textarea.h:
 ../Drivers/lvgl/demos/music/assets/../../../src/widgets/lv_canvas.h:

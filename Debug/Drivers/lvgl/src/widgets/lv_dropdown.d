@@ -3,7 +3,7 @@ Drivers/lvgl/src/widgets/lv_dropdown.o: \
  ../Drivers/lvgl/src/widgets/../core/lv_obj.h \
  ../Drivers/lvgl/src/widgets/../core/../lv_conf_internal.h \
  ../Drivers/lvgl/src/widgets/../core/../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/widgets/../core/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/widgets/../core/../misc/lv_style.h \
  ../Drivers/lvgl/src/widgets/../core/../misc/../font/lv_font.h \
  ../Drivers/lvgl/src/widgets/../core/../misc/../font/../lv_conf_internal.h \
@@ -83,33 +83,11 @@ Drivers/lvgl/src/widgets/lv_dropdown.o: \
  ../Drivers/lvgl/src/widgets/../core/lv_group.h \
  ../Drivers/lvgl/src/widgets/../core/../misc/lv_ll.h \
  ../Drivers/lvgl/src/widgets/lv_dropdown.h \
- ../Drivers/lvgl/src/widgets/../lv_conf_internal.h \
- ../Drivers/lvgl/src/widgets/../widgets/lv_label.h \
- ../Drivers/lvgl/src/widgets/../widgets/../lv_conf_internal.h \
- ../Drivers/lvgl/src/widgets/../widgets/../core/lv_obj.h \
- ../Drivers/lvgl/src/widgets/../widgets/../font/lv_font.h \
- ../Drivers/lvgl/src/widgets/../widgets/../font/lv_symbol_def.h \
- ../Drivers/lvgl/src/widgets/../widgets/../misc/lv_txt.h \
- ../Drivers/lvgl/src/widgets/../widgets/../draw/lv_draw.h \
- ../Drivers/lvgl/src/widgets/../misc/lv_assert.h \
- ../Drivers/lvgl/src/widgets/../draw/lv_draw.h \
- ../Drivers/lvgl/src/widgets/../core/lv_group.h \
- ../Drivers/lvgl/src/widgets/../core/lv_indev.h \
- ../Drivers/lvgl/src/widgets/../core/lv_obj.h \
- ../Drivers/lvgl/src/widgets/../core/../hal/lv_hal_indev.h \
- ../Drivers/lvgl/src/widgets/../core/lv_disp.h \
- ../Drivers/lvgl/src/widgets/../core/lv_theme.h \
- ../Drivers/lvgl/src/widgets/../core/../core/lv_obj.h \
- ../Drivers/lvgl/src/widgets/../font/lv_symbol_def.h \
- ../Drivers/lvgl/src/widgets/../misc/lv_anim.h \
- ../Drivers/lvgl/src/widgets/../misc/lv_math.h \
- ../Drivers/lvgl/src/widgets/../misc/lv_txt_ap.h \
- ../Drivers/lvgl/src/widgets/../misc/lv_txt.h \
- ../Drivers/lvgl/src/widgets/../misc/../draw/lv_draw.h
+ ../Drivers/lvgl/src/widgets/../lv_conf_internal.h
 ../Drivers/lvgl/src/widgets/../core/lv_obj.h:
 ../Drivers/lvgl/src/widgets/../core/../lv_conf_internal.h:
 ../Drivers/lvgl/src/widgets/../core/../lv_conf_kconfig.h:
-../Drivers/lvgl/src/widgets/../core/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/widgets/../core/../misc/lv_style.h:
 ../Drivers/lvgl/src/widgets/../core/../misc/../font/lv_font.h:
 ../Drivers/lvgl/src/widgets/../core/../misc/../font/../lv_conf_internal.h:
@@ -190,25 +168,3 @@ Drivers/lvgl/src/widgets/lv_dropdown.o: \
 ../Drivers/lvgl/src/widgets/../core/../misc/lv_ll.h:
 ../Drivers/lvgl/src/widgets/lv_dropdown.h:
 ../Drivers/lvgl/src/widgets/../lv_conf_internal.h:
-../Drivers/lvgl/src/widgets/../widgets/lv_label.h:
-../Drivers/lvgl/src/widgets/../widgets/../lv_conf_internal.h:
-../Drivers/lvgl/src/widgets/../widgets/../core/lv_obj.h:
-../Drivers/lvgl/src/widgets/../widgets/../font/lv_font.h:
-../Drivers/lvgl/src/widgets/../widgets/../font/lv_symbol_def.h:
-../Drivers/lvgl/src/widgets/../widgets/../misc/lv_txt.h:
-../Drivers/lvgl/src/widgets/../widgets/../draw/lv_draw.h:
-../Drivers/lvgl/src/widgets/../misc/lv_assert.h:
-../Drivers/lvgl/src/widgets/../draw/lv_draw.h:
-../Drivers/lvgl/src/widgets/../core/lv_group.h:
-../Drivers/lvgl/src/widgets/../core/lv_indev.h:
-../Drivers/lvgl/src/widgets/../core/lv_obj.h:
-../Drivers/lvgl/src/widgets/../core/../hal/lv_hal_indev.h:
-../Drivers/lvgl/src/widgets/../core/lv_disp.h:
-../Drivers/lvgl/src/widgets/../core/lv_theme.h:
-../Drivers/lvgl/src/widgets/../core/../core/lv_obj.h:
-../Drivers/lvgl/src/widgets/../font/lv_symbol_def.h:
-../Drivers/lvgl/src/widgets/../misc/lv_anim.h:
-../Drivers/lvgl/src/widgets/../misc/lv_math.h:
-../Drivers/lvgl/src/widgets/../misc/lv_txt_ap.h:
-../Drivers/lvgl/src/widgets/../misc/lv_txt.h:
-../Drivers/lvgl/src/widgets/../misc/../draw/lv_draw.h:

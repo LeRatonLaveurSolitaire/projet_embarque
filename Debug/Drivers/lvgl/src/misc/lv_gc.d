@@ -2,7 +2,7 @@ Drivers/lvgl/src/misc/lv_gc.o: ../Drivers/lvgl/src/misc/lv_gc.c \
  ../Drivers/lvgl/src/misc/lv_gc.h \
  ../Drivers/lvgl/src/misc/../lv_conf_internal.h \
  ../Drivers/lvgl/src/misc/../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/misc/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/misc/lv_mem.h ../Drivers/lvgl/src/misc/lv_types.h \
  ../Drivers/lvgl/src/misc/lv_ll.h ../Drivers/lvgl/src/misc/lv_timer.h \
  ../Drivers/lvgl/src/misc/../hal/lv_hal_tick.h \
@@ -28,7 +28,7 @@ Drivers/lvgl/src/misc/lv_gc.o: ../Drivers/lvgl/src/misc/lv_gc.c \
 ../Drivers/lvgl/src/misc/lv_gc.h:
 ../Drivers/lvgl/src/misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/misc/../lv_conf_kconfig.h:
-../Drivers/lvgl/src/misc/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/misc/lv_mem.h:
 ../Drivers/lvgl/src/misc/lv_types.h:
 ../Drivers/lvgl/src/misc/lv_ll.h:

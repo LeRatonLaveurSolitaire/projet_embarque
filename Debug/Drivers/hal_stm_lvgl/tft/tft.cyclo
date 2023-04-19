@@ -1,0 +1,14 @@
+core_cm7.h:2265:22:SCB_InvalidateICache	1
+core_cm7.h:2427:22:SCB_CleanInvalidateDCache	3
+tft.c:111:6:tft_init	1
+tft.c:171:13:ex_disp_flush	6
+tft.c:215:13:ex_disp_clean_dcache	1
+tft.c:224:13:LCD_MspInit	1
+tft.c:292:13:LCD_ClockConfig	1
+tft.c:312:16:LCD_Init	3
+tft.c:371:13:LCD_LayerRgb565Init	1
+tft.c:402:13:LCD_DisplayOn	1
+tft.c:410:13:DMA_Config	2
+tft.c:455:13:DMA_TransferComplete	3
+tft.c:486:13:DMA_TransferError	1
+tft.c:496:6:DMA2_Stream0_IRQHandler	1

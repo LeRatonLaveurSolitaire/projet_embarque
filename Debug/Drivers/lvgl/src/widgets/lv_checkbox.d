@@ -3,7 +3,7 @@ Drivers/lvgl/src/widgets/lv_checkbox.o: \
  ../Drivers/lvgl/src/widgets/lv_checkbox.h \
  ../Drivers/lvgl/src/widgets/../lv_conf_internal.h \
  ../Drivers/lvgl/src/widgets/../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/widgets/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/widgets/../core/lv_obj.h \
  ../Drivers/lvgl/src/widgets/../core/../lv_conf_internal.h \
  ../Drivers/lvgl/src/widgets/../core/../misc/lv_style.h \
@@ -83,17 +83,11 @@ Drivers/lvgl/src/widgets/lv_checkbox.o: \
  ../Drivers/lvgl/src/widgets/../core/lv_obj_class.h \
  ../Drivers/lvgl/src/widgets/../core/lv_event.h \
  ../Drivers/lvgl/src/widgets/../core/lv_group.h \
- ../Drivers/lvgl/src/widgets/../core/../misc/lv_ll.h \
- ../Drivers/lvgl/src/widgets/../misc/lv_assert.h \
- ../Drivers/lvgl/src/widgets/../misc/lv_txt_ap.h \
- ../Drivers/lvgl/src/widgets/../misc/lv_txt.h \
- ../Drivers/lvgl/src/widgets/../misc/../draw/lv_draw.h \
- ../Drivers/lvgl/src/widgets/../core/lv_group.h \
- ../Drivers/lvgl/src/widgets/../draw/lv_draw.h
+ ../Drivers/lvgl/src/widgets/../core/../misc/lv_ll.h
 ../Drivers/lvgl/src/widgets/lv_checkbox.h:
 ../Drivers/lvgl/src/widgets/../lv_conf_internal.h:
 ../Drivers/lvgl/src/widgets/../lv_conf_kconfig.h:
-../Drivers/lvgl/src/widgets/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/widgets/../core/lv_obj.h:
 ../Drivers/lvgl/src/widgets/../core/../lv_conf_internal.h:
 ../Drivers/lvgl/src/widgets/../core/../misc/lv_style.h:
@@ -174,9 +168,3 @@ Drivers/lvgl/src/widgets/lv_checkbox.o: \
 ../Drivers/lvgl/src/widgets/../core/lv_event.h:
 ../Drivers/lvgl/src/widgets/../core/lv_group.h:
 ../Drivers/lvgl/src/widgets/../core/../misc/lv_ll.h:
-../Drivers/lvgl/src/widgets/../misc/lv_assert.h:
-../Drivers/lvgl/src/widgets/../misc/lv_txt_ap.h:
-../Drivers/lvgl/src/widgets/../misc/lv_txt.h:
-../Drivers/lvgl/src/widgets/../misc/../draw/lv_draw.h:
-../Drivers/lvgl/src/widgets/../core/lv_group.h:
-../Drivers/lvgl/src/widgets/../draw/lv_draw.h:

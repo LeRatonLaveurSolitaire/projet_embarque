@@ -1,8 +1,8 @@
 Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
- ../Core/Inc/stm32f7xx_hal_conf.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_def.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f746xx.h \
  ../Drivers/CMSIS/Include/core_cm7.h \
@@ -11,31 +11,34 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/CMSIS/Include/cmsis_gcc.h \
  ../Drivers/CMSIS/Include/mpu_armv7.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_exti.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio_ex.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma_ex.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_cortex.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma2d.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash_ex.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sdram.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_fmc.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c_ex.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_ltdc.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_ltdc_ex.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rtc.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rtc_ex.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_gpio.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_gpio_ex.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_dma.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_dma_ex.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_cortex.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_dma2d.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_dcmi.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_flash.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_flash_ex.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_sdram.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_ll_fmc.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_i2c.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_i2c_ex.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_ltdc.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_pwr.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_qspi.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_rtc.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_rtc_ex.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_sai.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_sd.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_ll_sdmmc.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_tim.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_uart.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
@@ -54,13 +57,13 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
  ../Core/Inc/dma2d.h ../Core/Inc/main.h ../Core/Inc/i2c.h \
- ../Core/Inc/ltdc.h ../Core/Inc/rtc.h ../Core/Inc/tim.h \
- ../Core/Inc/usart.h ../Core/Inc/gpio.h ../Core/Inc/fmc.h \
+ ../Core/Inc/rtc.h ../Core/Inc/tim.h ../Core/Inc/usart.h \
+ ../Core/Inc/gpio.h ../Core/Inc/fmc.h \
  C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/lvgl.h \
  C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/misc/lv_log.h \
  c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lvgl\src\lv_conf_internal.h \
  c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lvgl\src\lv_conf_kconfig.h \
- c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/misc/lv_types.h \
  C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/misc/lv_timer.h \
  c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lvgl\src\hal\lv_hal_tick.h \
@@ -182,7 +185,6 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/widgets/lv_bar.h \
  C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/widgets/lv_btnmatrix.h \
  C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/widgets/lv_dropdown.h \
- c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lvgl\src\widgets\lv_label.h \
  C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/widgets/lv_roller.h \
  C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/widgets/lv_textarea.h \
  C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/widgets/lv_canvas.h \
@@ -279,15 +281,15 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lvgl\src\lvgl.h \
  C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/extra/widgets/span/lv_span.h \
  c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lvgl\src\lvgl.h \
- ../Core/Inc/stm32746g_discovery_ts.h ../Core/Inc/stm32746g_discovery.h \
- ../Core/Inc/ft5336.h ../Core/Inc/ts.h \
- ../Core/Inc/stm32746g_discovery_lcd.h ../Core/Inc/rk043fn48h.h \
- ../Core/Inc/stm32746g_discovery_sdram.h ../Core/Inc/../../Fonts/fonts.h
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/hal_stm_lvgl/tft/tft.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/misc/lv_color.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/misc/lv_area.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/BNO055_driver-master/bno055.h
 ../Core/Inc/main.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
-../Core/Inc/stm32f7xx_hal_conf.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_rcc.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_def.h:
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h:
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f746xx.h:
 ../Drivers/CMSIS/Include/core_cm7.h:
@@ -296,31 +298,34 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/CMSIS/Include/cmsis_gcc.h:
 ../Drivers/CMSIS/Include/mpu_armv7.h:
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_exti.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio_ex.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma_ex.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_cortex.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma2d.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash_ex.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_sdram.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_fmc.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c_ex.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_ltdc.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_ltdc_ex.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rtc.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rtc_ex.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h:
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_gpio.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_gpio_ex.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_dma.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_dma_ex.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_cortex.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_dma2d.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_dcmi.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_flash.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_flash_ex.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_sdram.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_ll_fmc.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_i2c.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_i2c_ex.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_ltdc.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_pwr.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_qspi.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_rtc.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_rtc_ex.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_sai.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_sd.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_ll_sdmmc.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_tim.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_uart.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
@@ -341,7 +346,6 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Core/Inc/dma2d.h:
 ../Core/Inc/main.h:
 ../Core/Inc/i2c.h:
-../Core/Inc/ltdc.h:
 ../Core/Inc/rtc.h:
 ../Core/Inc/tim.h:
 ../Core/Inc/usart.h:
@@ -351,7 +355,7 @@ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv
 C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/misc/lv_log.h:
 c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lvgl\src\lv_conf_internal.h:
 c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lvgl\src\lv_conf_kconfig.h:
-c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/misc/lv_types.h:
 C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/misc/lv_timer.h:
 c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lvgl\src\hal\lv_hal_tick.h:
@@ -473,7 +477,6 @@ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv
 C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/widgets/lv_bar.h:
 C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/widgets/lv_btnmatrix.h:
 C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/widgets/lv_dropdown.h:
-c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lvgl\src\widgets\lv_label.h:
 C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/widgets/lv_roller.h:
 C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/widgets/lv_textarea.h:
 C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/widgets/lv_canvas.h:
@@ -570,11 +573,7 @@ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv
 c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lvgl\src\lvgl.h:
 C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/extra/widgets/span/lv_span.h:
 c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lvgl\src\lvgl.h:
-../Core/Inc/stm32746g_discovery_ts.h:
-../Core/Inc/stm32746g_discovery.h:
-../Core/Inc/ft5336.h:
-../Core/Inc/ts.h:
-../Core/Inc/stm32746g_discovery_lcd.h:
-../Core/Inc/rk043fn48h.h:
-../Core/Inc/stm32746g_discovery_sdram.h:
-../Core/Inc/../../Fonts/fonts.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/hal_stm_lvgl/tft/tft.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/misc/lv_color.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lvgl/src/misc/lv_area.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/BNO055_driver-master/bno055.h:

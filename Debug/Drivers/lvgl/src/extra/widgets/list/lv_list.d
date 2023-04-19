@@ -4,7 +4,7 @@ Drivers/lvgl/src/extra/widgets/list/lv_list.o: \
  ../Drivers/lvgl/src/extra/widgets/list/../../../core/lv_obj.h \
  ../Drivers/lvgl/src/extra/widgets/list/../../../core/../lv_conf_internal.h \
  ../Drivers/lvgl/src/extra/widgets/list/../../../core/../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/extra/widgets/list/../../../core/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/extra/widgets/list/../../../core/../misc/lv_style.h \
  ../Drivers/lvgl/src/extra/widgets/list/../../../core/../misc/../font/lv_font.h \
  ../Drivers/lvgl/src/extra/widgets/list/../../../core/../misc/../font/../lv_conf_internal.h \
@@ -103,7 +103,7 @@ Drivers/lvgl/src/extra/widgets/list/lv_list.o: \
 ../Drivers/lvgl/src/extra/widgets/list/../../../core/lv_obj.h:
 ../Drivers/lvgl/src/extra/widgets/list/../../../core/../lv_conf_internal.h:
 ../Drivers/lvgl/src/extra/widgets/list/../../../core/../lv_conf_kconfig.h:
-../Drivers/lvgl/src/extra/widgets/list/../../../core/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/extra/widgets/list/../../../core/../misc/lv_style.h:
 ../Drivers/lvgl/src/extra/widgets/list/../../../core/../misc/../font/lv_font.h:
 ../Drivers/lvgl/src/extra/widgets/list/../../../core/../misc/../font/../lv_conf_internal.h:

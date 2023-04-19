@@ -4,7 +4,7 @@ Drivers/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.o: \
  ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/lv_obj.h \
  ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../lv_conf_internal.h \
  ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../misc/lv_style.h \
  ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../misc/../font/lv_font.h \
  ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../misc/../font/../lv_conf_internal.h \
@@ -82,26 +82,12 @@ Drivers/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.o: \
  ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/lv_obj_class.h \
  ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/lv_event.h \
  ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/lv_group.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../misc/lv_ll.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/lv_calendar.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/lv_btnmatrix.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../lv_conf_internal.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../core/lv_obj.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/lv_dropdown.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/lv_label.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/../lv_conf_internal.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/../core/lv_obj.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/../font/lv_font.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/../font/lv_symbol_def.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/../misc/lv_txt.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/../draw/lv_draw.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../layouts/flex/lv_flex.h \
- ../Drivers/lvgl/src/extra/widgets/calendar/../../layouts/flex/../../../core/lv_obj.h
+ ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../misc/lv_ll.h
 ../Drivers/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h:
 ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/lv_obj.h:
 ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../lv_conf_internal.h:
 ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../lv_conf_kconfig.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../misc/lv_style.h:
 ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../misc/../font/lv_font.h:
 ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../misc/../font/../lv_conf_internal.h:
@@ -180,17 +166,3 @@ c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lv
 ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/lv_event.h:
 ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/lv_group.h:
 ../Drivers/lvgl/src/extra/widgets/calendar/../../../core/../misc/lv_ll.h:
-../Drivers/lvgl/src/extra/widgets/calendar/lv_calendar.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/lv_btnmatrix.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../lv_conf_internal.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../core/lv_obj.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/lv_dropdown.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/lv_label.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/../lv_conf_internal.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/../core/lv_obj.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/../font/lv_font.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/../font/lv_symbol_def.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/../misc/lv_txt.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../../widgets/../widgets/../draw/lv_draw.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../layouts/flex/lv_flex.h:
-../Drivers/lvgl/src/extra/widgets/calendar/../../layouts/flex/../../../core/lv_obj.h:

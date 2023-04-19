@@ -2,7 +2,7 @@ Drivers/lvgl/src/core/lv_obj.o: ../Drivers/lvgl/src/core/lv_obj.c \
  ../Drivers/lvgl/src/core/lv_obj.h \
  ../Drivers/lvgl/src/core/../lv_conf_internal.h \
  ../Drivers/lvgl/src/core/../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/core/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/core/../misc/lv_style.h \
  ../Drivers/lvgl/src/core/../misc/../font/lv_font.h \
  ../Drivers/lvgl/src/core/../misc/../font/../lv_conf_internal.h \
@@ -153,7 +153,6 @@ Drivers/lvgl/src/core/lv_obj.o: ../Drivers/lvgl/src/core/lv_obj.c \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_bar.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_btnmatrix.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_dropdown.h \
- ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../widgets/lv_label.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_roller.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_textarea.h \
  ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_canvas.h \
@@ -238,7 +237,7 @@ Drivers/lvgl/src/core/lv_obj.o: ../Drivers/lvgl/src/core/lv_obj.c \
 ../Drivers/lvgl/src/core/lv_obj.h:
 ../Drivers/lvgl/src/core/../lv_conf_internal.h:
 ../Drivers/lvgl/src/core/../lv_conf_kconfig.h:
-../Drivers/lvgl/src/core/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/core/../misc/lv_style.h:
 ../Drivers/lvgl/src/core/../misc/../font/lv_font.h:
 ../Drivers/lvgl/src/core/../misc/../font/../lv_conf_internal.h:
@@ -391,7 +390,6 @@ Drivers/lvgl/src/core/lv_obj.o: ../Drivers/lvgl/src/core/lv_obj.c \
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_bar.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_btnmatrix.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_dropdown.h:
-../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../widgets/lv_label.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_roller.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_textarea.h:
 ../Drivers/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_canvas.h:

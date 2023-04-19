@@ -188,10 +188,10 @@ void lv_demo_widgets(void)
 
     lv_obj_t * t1 = lv_tabview_add_tab(tv, "Profile");
     lv_obj_t * t2 = lv_tabview_add_tab(tv, "Analytics");
-    lv_obj_t * t3 = lv_tabview_add_tab(tv, "Shop");
+    //lv_obj_t * t3 = lv_tabview_add_tab(tv, "Shop");
     profile_create(t1);
     analytics_create(t2);
-    shop_create(t3);
+    //shop_create(t3);
 
     color_changer_create(tv);
 }
@@ -779,7 +779,7 @@ static void analytics_create(lv_obj_t * parent)
     lv_obj_align(mbps_label, LV_ALIGN_TOP_MID, 10, lv_pct(55));
     lv_obj_align_to(mbps_unit_label, mbps_label, LV_ALIGN_OUT_RIGHT_BOTTOM, 10, 0);
 }
-
+/*
 void shop_create(lv_obj_t * parent)
 {
     lv_obj_set_flex_flow(parent, LV_FLEX_FLOW_ROW_WRAP);
@@ -826,14 +826,15 @@ void shop_create(lv_obj_t * parent)
     lv_chart_set_next_value(chart3, ser4, lv_rand(60, 90));
     lv_chart_set_next_value(chart3, ser4, lv_rand(60, 90));
 
+
     if(disp_size == DISP_LARGE) {
         static lv_coord_t grid1_col_dsc[] = {LV_GRID_FR(1), LV_GRID_FR(1), LV_GRID_TEMPLATE_LAST};
         static lv_coord_t grid1_row_dsc[] = {
-            LV_GRID_CONTENT,  /*Title*/
-            LV_GRID_CONTENT,  /*Sub title*/
-            20,               /*Spacer*/
-            LV_GRID_CONTENT,  /*Amount*/
-            LV_GRID_CONTENT,  /*Hint*/
+            LV_GRID_CONTENT,
+            LV_GRID_CONTENT,
+            20,
+            LV_GRID_CONTENT,
+            LV_GRID_CONTENT,
             LV_GRID_TEMPLATE_LAST
         };
 
@@ -851,9 +852,9 @@ void shop_create(lv_obj_t * parent)
     else if(disp_size == DISP_MEDIUM) {
         static lv_coord_t grid1_col_dsc[] = {LV_GRID_FR(1), LV_GRID_FR(1), LV_GRID_TEMPLATE_LAST};
         static lv_coord_t grid1_row_dsc[] = {
-            LV_GRID_CONTENT,  /*Title + Date*/
-            LV_GRID_CONTENT,  /*Amount + Hint*/
-            200,              /*Chart*/
+            LV_GRID_CONTENT,
+            LV_GRID_CONTENT,
+            200,
             LV_GRID_TEMPLATE_LAST
         };
 
@@ -871,11 +872,11 @@ void shop_create(lv_obj_t * parent)
     else if(disp_size == DISP_SMALL) {
         static lv_coord_t grid1_col_dsc[] = {LV_GRID_FR(1), LV_GRID_TEMPLATE_LAST};
         static lv_coord_t grid1_row_dsc[] = {
-            LV_GRID_CONTENT,  /*Title*/
-            LV_GRID_CONTENT,  /*Date*/
-            LV_GRID_CONTENT,  /*Amount*/
-            LV_GRID_CONTENT,  /*Hint*/
-            LV_GRID_CONTENT,  /*Chart*/
+            LV_GRID_CONTENT,
+            LV_GRID_CONTENT,
+            LV_GRID_CONTENT,
+            LV_GRID_CONTENT,
+            LV_GRID_CONTENT,
             LV_GRID_TEMPLATE_LAST
         };
 
@@ -958,6 +959,8 @@ void shop_create(lv_obj_t * parent)
 
 
 }
+
+*/
 
 static void color_changer_create(lv_obj_t * parent)
 {
@@ -1166,7 +1169,7 @@ static lv_obj_t * create_meter_box(lv_obj_t * parent, const char * title, const 
     return meter;
 
 }
-
+/*
 static lv_obj_t * create_shop_item(lv_obj_t * parent, const void * img_src, const char * name, const char * category,
                                    const char * price)
 {
@@ -1198,6 +1201,7 @@ static lv_obj_t * create_shop_item(lv_obj_t * parent, const void * img_src, cons
 
     return cont;
 }
+*/
 
 static void ta_event_cb(lv_event_t * e)
 {

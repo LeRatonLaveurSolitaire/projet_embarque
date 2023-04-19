@@ -3,7 +3,7 @@ Drivers/lvgl/src/draw/sw/lv_draw_sw.o: \
  ../Drivers/lvgl/src/draw/sw/../lv_draw.h \
  ../Drivers/lvgl/src/draw/sw/../../lv_conf_internal.h \
  ../Drivers/lvgl/src/draw/sw/../../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/draw/sw/../../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/draw/sw/../../misc/lv_style.h \
  ../Drivers/lvgl/src/draw/sw/../../misc/../font/lv_font.h \
  ../Drivers/lvgl/src/draw/sw/../../misc/../font/../lv_conf_internal.h \
@@ -71,7 +71,7 @@ Drivers/lvgl/src/draw/sw/lv_draw_sw.o: \
 ../Drivers/lvgl/src/draw/sw/../lv_draw.h:
 ../Drivers/lvgl/src/draw/sw/../../lv_conf_internal.h:
 ../Drivers/lvgl/src/draw/sw/../../lv_conf_kconfig.h:
-../Drivers/lvgl/src/draw/sw/../../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/draw/sw/../../misc/lv_style.h:
 ../Drivers/lvgl/src/draw/sw/../../misc/../font/lv_font.h:
 ../Drivers/lvgl/src/draw/sw/../../misc/../font/../lv_conf_internal.h:

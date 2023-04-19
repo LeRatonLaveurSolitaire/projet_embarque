@@ -3,8 +3,8 @@ Drivers/lvgl/src/extra/others/fragment/lv_fragment_manager.o: \
  ../Drivers/lvgl/src/extra/others/fragment/lv_fragment.h \
  ../Drivers/lvgl/src/extra/others/fragment/../../../lv_conf_internal.h \
  ../Drivers/lvgl/src/extra/others/fragment/../../../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/extra/others/fragment/../../../../../lv_conf.h
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h
 ../Drivers/lvgl/src/extra/others/fragment/lv_fragment.h:
 ../Drivers/lvgl/src/extra/others/fragment/../../../lv_conf_internal.h:
 ../Drivers/lvgl/src/extra/others/fragment/../../../lv_conf_kconfig.h:
-../Drivers/lvgl/src/extra/others/fragment/../../../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:

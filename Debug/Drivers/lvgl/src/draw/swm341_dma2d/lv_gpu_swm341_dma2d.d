@@ -4,7 +4,7 @@ Drivers/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.o: \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/lv_color.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/../lv_conf_internal.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/lv_assert.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/lv_log.h \
  ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/lv_types.h \
@@ -99,7 +99,7 @@ Drivers/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.o: \
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/lv_color.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/../lv_conf_kconfig.h:
-../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/lv_assert.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/lv_log.h:
 ../Drivers/lvgl/src/draw/swm341_dma2d/../../misc/lv_types.h:

@@ -2,7 +2,7 @@ Drivers/lvgl/src/misc/lv_fs.o: ../Drivers/lvgl/src/misc/lv_fs.c \
  ../Drivers/lvgl/src/misc/lv_fs.h \
  ../Drivers/lvgl/src/misc/../lv_conf_internal.h \
  ../Drivers/lvgl/src/misc/../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/misc/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/misc/../misc/lv_assert.h \
  ../Drivers/lvgl/src/misc/../misc/../lv_conf_internal.h \
  ../Drivers/lvgl/src/misc/../misc/lv_log.h \
@@ -32,7 +32,7 @@ Drivers/lvgl/src/misc/lv_fs.o: ../Drivers/lvgl/src/misc/lv_fs.c \
 ../Drivers/lvgl/src/misc/lv_fs.h:
 ../Drivers/lvgl/src/misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/misc/../lv_conf_kconfig.h:
-../Drivers/lvgl/src/misc/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/misc/../misc/lv_assert.h:
 ../Drivers/lvgl/src/misc/../misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/misc/../misc/lv_log.h:

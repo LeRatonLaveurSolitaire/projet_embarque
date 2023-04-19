@@ -26,10 +26,14 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
-#include "stm32746g_discovery_ts.h"
+
 #include "stdio.h"
 #include "rtc.h"
-
+#include "lvgl/lvgl.h"
+#include "hal_stm_lvgl/tft/tft.h"
+#include "hal_stm_lvgl/touchpad/touchpad.h"
+#include "bno055.h"
+#include "math.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -139,27 +143,27 @@ void MX_FREERTOS_Init(void) {
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* definition and creation of accelerometre */
-  osThreadDef(accelerometre, accelerometre_I2C, osPriorityIdle, 0, 1024);
+  osThreadDef(accelerometre, accelerometre_I2C, osPriorityHigh, 0, 1536);
   accelerometreHandle = osThreadCreate(osThread(accelerometre), NULL);
 
   /* definition and creation of NEMA */
-  osThreadDef(NEMA, NEMA_UART, osPriorityNormal, 0, 1024);
+  osThreadDef(NEMA, NEMA_UART, osPriorityNormal, 0, 128);
   NEMAHandle = osThreadCreate(osThread(NEMA), NULL);
 
   /* definition and creation of resetSpeed */
-  osThreadDef(resetSpeed, reset_speed, osPriorityIdle, 0, 128);
+  osThreadDef(resetSpeed, reset_speed, osPriorityNormal, 0, 128);
   resetSpeedHandle = osThreadCreate(osThread(resetSpeed), NULL);
 
   /* definition and creation of resetOrientatio */
-  osThreadDef(resetOrientatio, reset_orientation, osPriorityIdle, 0, 128);
+  osThreadDef(resetOrientatio, reset_orientation, osPriorityNormal, 0, 128);
   resetOrientatioHandle = osThreadCreate(osThread(resetOrientatio), NULL);
 
   /* definition and creation of LVGL_Timer */
-  osThreadDef(LVGL_Timer, LVGLTimer, osPriorityIdle, 0, 128);
+  osThreadDef(LVGL_Timer, LVGLTimer, osPriorityNormal, 0, 1024);
   LVGL_TimerHandle = osThreadCreate(osThread(LVGL_Timer), NULL);
 
   /* definition and creation of LVGL_Tick */
-  osThreadDef(LVGL_Tick, LVGLTick, osPriorityIdle, 0, 128);
+  osThreadDef(LVGL_Tick, LVGLTick, osPriorityHigh, 0, 1024);
   LVGL_TickHandle = osThreadCreate(osThread(LVGL_Tick), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
@@ -181,7 +185,7 @@ void StartDefaultTask(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+	  vTaskDelay(10);
   }
   /* USER CODE END StartDefaultTask */
 }
@@ -195,12 +199,182 @@ void StartDefaultTask(void const * argument)
 /* USER CODE END Header_accelerometre_I2C */
 void accelerometre_I2C(void const * argument)
 {
-  /* USER CODE BEGIN accelerometre_I2C */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
+	/* USER CODE BEGIN accelerometre_I2C */
+	/* Infinite loop */
+
+	// import des variables
+
+	extern int16_t acc_X;
+	extern int16_t acc_Y;
+	extern int16_t acc_Z;
+	extern int16_t mag_X;
+	extern int16_t mag_Y;
+	extern int16_t mag_Z;
+	extern int16_t gyro_X;
+	extern int16_t gyro_Y;
+	extern int16_t gyro_Z;
+	extern int8_t temp;
+	extern uint16_t speed;
+	extern uint16_t alt;
+
+	// import des objet LVGL
+	extern lv_obj_t *info_title;
+	extern lv_obj_t *temp_title;
+	extern lv_obj_t *alt_roller;
+	extern lv_obj_t *alt_label;
+	extern lv_obj_t *speed_roller;
+	extern lv_obj_t *speed_label;
+	extern lv_obj_t *compass_roller;
+	extern lv_obj_t *date_title;
+	extern lv_obj_t *time_title;
+	extern lv_obj_t *canvas;
+	extern lv_draw_line_dsc_t ligne_horizon;
+	extern lv_draw_line_dsc_t central_line;
+	extern lv_point_t points_horizon[2];
+	extern lv_point_t points_offset[2];
+	extern lv_point_t points_ligne[2];
+
+	static int speed_X =0 ;
+	static int speed_Y =0 ;
+	static int speed_Z =0 ;
+	static char text[100];
+	static char text2[10];
+	static uint16_t periode = 250;
+	static int8_t alpha = 0;
+	static int8_t theta = 0;
+	static uint16_t angle_mag = 0;
+	extern I2C_HandleTypeDef hi2c1;
+	uint8_t donnees_Rx_i2c[8];
+	const uint8_t registre = BNO055_EULER_H_LSB_ADDR;
+	extern RTC_TimeTypeDef sTime;
+	extern RTC_DateTypeDef sDate;
+	for(;;)
+	{
+
+		//récupération des données du capteur
+/*
+		bno055_read_accel_x(&acc_X);
+		bno055_read_accel_y(&acc_Y);
+		bno055_read_accel_z(&acc_Z);
+		bno055_read_mag_x(&mag_X);
+		bno055_read_mag_x(&mag_Y);
+		bno055_read_mag_x(&mag_Z);
+		bno055_read_gyro_x(&gyro_X);
+		bno055_read_gyro_y(&gyro_Y);
+		bno055_read_gyro_z(&gyro_Z);
+		bno055_read_temp_data(&temp);
+*/
+
+		//donnees du gyro
+
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Transmit(&hi2c1, (uint16_t)0x28<<1 ,(uint8_t*) &registre, 1, 100);
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Receive(&hi2c1, (uint16_t)0x28<<1 , donnees_Rx_i2c, 6, 100);
+		gyro_X = (uint16_t)(donnees_Rx_i2c[1]<<8) + donnees_Rx_i2c[0];
+		gyro_Y = (uint16_t)(donnees_Rx_i2c[3]<<8) + donnees_Rx_i2c[2];
+		gyro_Z = (uint16_t)(donnees_Rx_i2c[5]<<8) + donnees_Rx_i2c[4];
+
+		gyro_X = gyro_X/16;
+		gyro_Y = gyro_Y/16;
+		gyro_Z = gyro_Z/16;
+		//donnees du mag
+/*
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Transmit(&hi2c1, (uint16_t)0x28<<1, (uint8_t *)BNO055_MAG_DATA_Z_LSB_ADDR, 1, 100);
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Receive(&hi2c1, (uint16_t)0x28<<1, donnees_Rx_i2c, 2, 100);
+		mag_Z = (uint16_t)(donnees_Rx_i2c[1]<<8) + donnees_Rx_i2c[0];
+
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Transmit(&hi2c1, (uint16_t)0x28<<1, (uint8_t *)BNO055_MAG_DATA_Y_LSB_ADDR, 1, 100);
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Receive(&hi2c1, (uint16_t)0x28<<1, donnees_Rx_i2c, 2, 100);
+		mag_Y = (uint16_t)(donnees_Rx_i2c[1]<<8) + donnees_Rx_i2c[0];
+
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Transmit(&hi2c1, (uint16_t)0x28<<1,(uint8_t *) BNO055_MAG_DATA_X_LSB_ADDR, 1, 100);
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Receive(&hi2c1, (uint16_t)0x28<<1, donnees_Rx_i2c, 2, 100);
+		mag_X = (uint16_t)(donnees_Rx_i2c[1]<<8) + donnees_Rx_i2c[0];
+
+
+		//donnees de l'accelero
+
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Transmit(&hi2c1, (uint16_t)0x28<<1, (uint8_t *)BNO055_ACCEL_DATA_Z_LSB_ADDR, 1, 100);
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Receive(&hi2c1, (uint16_t)0x28<<1, donnees_Rx_i2c, 2, 100);
+		acc_Z = (uint16_t)(donnees_Rx_i2c[1]<<8) + donnees_Rx_i2c[0];
+
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Transmit(&hi2c1, (uint16_t)0x28<<1, (uint8_t *)BNO055_ACCEL_DATA_Y_LSB_ADDR, 1, 100);
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Receive(&hi2c1, (uint16_t)0x28<<1, donnees_Rx_i2c, 2, 100);
+		acc_Y = (uint16_t)(donnees_Rx_i2c[1]<<8) + donnees_Rx_i2c[0];
+
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Transmit(&hi2c1, (uint16_t)0x28<<1, (uint8_t *)BNO055_ACCEL_DATA_X_LSB_ADDR, 1, 100);
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Receive(&hi2c1, (uint16_t)0x28<<1, donnees_Rx_i2c, 2, 100);
+		acc_X = (uint16_t)(donnees_Rx_i2c[1]<<8) + donnees_Rx_i2c[0];
+
+		//donnees de temperature
+
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Transmit(&hi2c1, (uint16_t)0x28<<1, (uint8_t *)BNO055_TEMP_ADDR, 1, 100);
+		while (HAL_I2C_GetState(&hi2c1) != HAL_I2C_STATE_READY);
+		HAL_I2C_Master_Receive(&hi2c1, (uint16_t)0x28<<1, donnees_Rx_i2c, 2, 100);
+		temp = (uint16_t)(donnees_Rx_i2c[1]<<8) + donnees_Rx_i2c[0];
+*/
+		//traitement des données
+
+		speed_X += acc_X * periode / 1000 ;
+		speed_Y += acc_Y * periode / 1000 ;
+		speed_Z += acc_Z * periode / 1000 ;
+
+		speed = pow((speed_X * speed_X + speed_Y * speed_Y + speed_Z * speed_Z ), 0.5);
+		alt += speed_Z * periode / 1000 ;
+		alpha = gyro_Z;
+		theta = -gyro_Y;
+		//angle_mag +=1;
+		// calcul de l'horizon
+		points_horizon[0].x = (lv_coord_t)  points_offset[0].x + 500 - 500 * cos( theta * 3.141593 / 180 );
+		points_horizon[0].y = (lv_coord_t)  points_offset[0].y + alpha/2 + 500 * sin( theta * 3.141592 / 180 ) + theta;
+		points_horizon[1].x = (lv_coord_t)  points_offset[1].x - 500 + 500 * cos( theta * 3.141593 / 180 );
+		points_horizon[1].y = (lv_coord_t)  points_offset[1].y + alpha/2 - 500 * sin( theta * 3.141592 / 180) + theta;
+
+		//affichage des données
+		lv_canvas_fill_bg(canvas, lv_color_hex(0x578EEB), LV_OPA_100);
+		lv_canvas_draw_line(canvas, points_horizon, 2,&ligne_horizon);
+		lv_canvas_draw_line(canvas, points_ligne, 2,&central_line);
+
+		sprintf(text, "accX : %d\naccY : %d\naccZ : %d\ngX : %d\ngY : %d\ngZ : %d",acc_X,acc_Y,acc_Z,gyro_X,gyro_Y,gyro_Z);
+		lv_label_set_text(info_title, text);
+
+		sprintf(text2, "%d °C",temp);
+		lv_label_set_text(temp_title, text2);
+
+		sprintf(text2, "%d m",alt);
+		lv_label_set_text(alt_label, text2);
+		lv_roller_set_selected(alt_roller, (uint8_t)(100 - alt / 100) , LV_ANIM_ON);
+
+		sprintf(text2, "%d m/s",(uint8_t) speed);
+		lv_label_set_text(speed_label, text2);
+		lv_roller_set_selected(speed_roller, (uint8_t) speed , LV_ANIM_ON);
+
+		lv_roller_set_selected(compass_roller, (uint8_t) ((((angle_mag + 23)/45))%8)  , LV_ANIM_ON);
+
+		HAL_RTC_GetTime(&hrtc, &sTime, RTC_FORMAT_BIN);
+		sprintf(text, "%02u:%02u:%02u",sTime.Hours,sTime.Minutes,sTime.Seconds);
+		lv_label_set_text(time_title, text);
+
+		HAL_RTC_GetDate(&hrtc, &sDate, RTC_FORMAT_BIN);
+		sprintf(text, "%02u/%02u/20%02u",sDate.Date,sDate.Month,sDate.Year);
+		lv_label_set_text(date_title, text);
+
+		vTaskDelay(periode);
+	}
   /* USER CODE END accelerometre_I2C */
 }
 
@@ -215,9 +389,13 @@ void NEMA_UART(void const * argument)
 {
   /* USER CODE BEGIN NEMA_UART */
   /* Infinite loop */
+  extern lv_obj_t *coords_title;
+  static char text[50] = "N48°42'46''\nE2°9'53''";
   for(;;)
   {
-    osDelay(1);
+
+	  lv_label_set_text(coords_title, text);
+	  vTaskDelay(100);
   }
   /* USER CODE END NEMA_UART */
 }
@@ -235,7 +413,7 @@ void reset_speed(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+	  vTaskDelay(10);
   }
   /* USER CODE END reset_speed */
 }
@@ -253,7 +431,7 @@ void reset_orientation(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+	 vTaskDelay(10);
   }
   /* USER CODE END reset_orientation */
 }
@@ -269,10 +447,12 @@ void LVGLTimer(void const * argument)
 {
   /* USER CODE BEGIN LVGLTimer */
   /* Infinite loop */
+	static int periode = 50;
   for(;;)
   {
-	lv_timer_handler();
-	osDelay(20);
+	lv_task_handler();
+	lv_tick_inc(periode);
+	vTaskDelay(periode);
   }
   /* USER CODE END LVGLTimer */
 }
@@ -290,8 +470,7 @@ void LVGLTick(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-	lv_tick_inc(10);
-	osDelay(10);
+	vTaskDelay(50);
   }
   /* USER CODE END LVGLTick */
 }

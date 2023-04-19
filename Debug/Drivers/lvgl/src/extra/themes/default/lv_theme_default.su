@@ -1,4 +1,3 @@
-c:\users\thoma\stm32cubeide\workspace_1.10.1\primary flight display\drivers\lvgl\src\misc\lv_area.h:286:26:lv_pct	16	static
 ../Drivers/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_color.h:439:48:lv_color_mix	32	static
 ../Drivers/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_color.h:588:26:lv_color_make	16	static
 ../Drivers/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_color.h:593:26:lv_color_hex	24	static
@@ -16,5 +15,5 @@ c:\users\thoma\stm32cubeide\workspace_1.10.1\primary flight display\drivers\lvgl
 ../Drivers/lvgl/src/extra/themes/default/lv_theme_default.c:648:14:lv_theme_default_init	24	static
 ../Drivers/lvgl/src/extra/themes/default/lv_theme_default.c:683:14:lv_theme_default_get	8	static
 ../Drivers/lvgl/src/extra/themes/default/lv_theme_default.c:692:6:lv_theme_default_is_inited	4	static
-../Drivers/lvgl/src/extra/themes/default/lv_theme_default.c:698:13:theme_apply	24	static
+../Drivers/lvgl/src/extra/themes/default/lv_theme_default.c:698:13:theme_apply	16	static
 ../Drivers/lvgl/src/extra/themes/default/lv_theme_default.c:1171:13:style_init_reset	16	static

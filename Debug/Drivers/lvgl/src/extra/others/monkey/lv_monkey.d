@@ -6,7 +6,7 @@ Drivers/lvgl/src/extra/others/monkey/lv_monkey.o: \
  ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/lv_log.h \
  ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/../lv_conf_internal.h \
  ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/lv_types.h \
  ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/lv_timer.h \
  ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/../hal/lv_hal_tick.h \
@@ -129,7 +129,6 @@ Drivers/lvgl/src/extra/others/monkey/lv_monkey.o: \
  ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/lv_bar.h \
  ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/lv_btnmatrix.h \
  ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/lv_dropdown.h \
- ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/../widgets/lv_label.h \
  ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/lv_roller.h \
  ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/lv_textarea.h \
  ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/lv_canvas.h \
@@ -230,7 +229,7 @@ Drivers/lvgl/src/extra/others/monkey/lv_monkey.o: \
 ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/lv_log.h:
 ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/../lv_conf_internal.h:
 ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/../lv_conf_kconfig.h:
-../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/lv_types.h:
 ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/lv_timer.h:
 ../Drivers/lvgl/src/extra/others/monkey/../../../../src/misc/../hal/lv_hal_tick.h:
@@ -353,7 +352,6 @@ c:\users\thoma\stm32cubeide\workspace_1.10.1\primary\ flight\ display\drivers\lv
 ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/lv_bar.h:
 ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/lv_btnmatrix.h:
 ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/lv_dropdown.h:
-../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/../widgets/lv_label.h:
 ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/lv_roller.h:
 ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/lv_textarea.h:
 ../Drivers/lvgl/src/extra/others/monkey/../../../../src/widgets/lv_canvas.h:

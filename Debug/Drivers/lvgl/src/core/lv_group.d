@@ -2,7 +2,7 @@ Drivers/lvgl/src/core/lv_group.o: ../Drivers/lvgl/src/core/lv_group.c \
  ../Drivers/lvgl/src/core/lv_group.h \
  ../Drivers/lvgl/src/core/../lv_conf_internal.h \
  ../Drivers/lvgl/src/core/../lv_conf_kconfig.h \
- ../Drivers/lvgl/src/core/../../../lv_conf.h \
+ C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h \
  ../Drivers/lvgl/src/core/../misc/lv_ll.h \
  ../Drivers/lvgl/src/core/../misc/lv_types.h \
  ../Drivers/lvgl/src/core/../misc/lv_gc.h \
@@ -104,7 +104,7 @@ Drivers/lvgl/src/core/lv_group.o: ../Drivers/lvgl/src/core/lv_group.c \
 ../Drivers/lvgl/src/core/lv_group.h:
 ../Drivers/lvgl/src/core/../lv_conf_internal.h:
 ../Drivers/lvgl/src/core/../lv_conf_kconfig.h:
-../Drivers/lvgl/src/core/../../../lv_conf.h:
+C:/Users/thoma/STM32CubeIDE/workspace_1.10.1/Primary\ Flight\ Display/Drivers/lv_conf.h:
 ../Drivers/lvgl/src/core/../misc/lv_ll.h:
 ../Drivers/lvgl/src/core/../misc/lv_types.h:
 ../Drivers/lvgl/src/core/../misc/lv_gc.h:
