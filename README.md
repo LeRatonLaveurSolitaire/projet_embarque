@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Le but de se projet fût de créer un horizon artificiel comme ceux que l'on trouve dans les avions à l'aide d'une carte STM32F746G-DISCO. Pour se faire, la bibliotèque LittleVGL (LVGL) à été utilisé conjointement avec le système d'exploitation FreeRTOS. Le capteur bno055 à été utilisé fin de récupérer les données gyroscopique, magnétométrique et d'accélération.
+Le but de ce projet fût de créer un horizon artificiel comme ceux que l'on trouve dans les avions à l'aide d'une carte STM32F746G-DISCO. Pour se faire, la bibliotèque LittleVGL (LVGL) à été utilisé conjointement avec le système d'exploitation FreeRTOS. Le capteur bno055 à été utilisé fin de récupérer les données gyroscopique, magnétométrique et d'accélération.
 
 ## Données affichés à l'écran
 
