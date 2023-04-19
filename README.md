@@ -71,5 +71,5 @@ Importer LVGL et les hal_stm_lvgl nécessaires, les initialiser dans le `main()`
 
 Configurer les deux taches de LVGL lancant `lv_task_handler();` et `lv_tick_inc(periode);`.
 
-C'est bon, vous êtes prêt à utiliser LVGL, il ne vous reste plus qu'à déclarer vos objets et à les modifier en fonction de vos besoin. LVGL et le HAL se charge de l'affichage et du tactile. En cas de problème, RTFM !
+C'est bon, vous êtes prêt à utiliser LVGL, il ne vous reste plus qu'à déclarer vos objets et à les modifier en fonction de vos besoins. LVGL et le HAL se charge de l'affichage et du tactile. En cas de problème, RTFM !
 
